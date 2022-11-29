@@ -1,7 +1,7 @@
 resource "aws_db_instance" "main" {
   allocated_storage    = 10
-  engine               = var.RDS_ENGINE
-  engine_version       = var.RDS_ENGINE_VERSION
+  engine               = var.ENGINE
+  engine_version       = var.ENGINE_VERSION
   instance_class       = var.RDS_INSTANCE_CLASS
   username             = "foo"
   password             = "foobarbaz"
