@@ -1,4 +1,4 @@
-// VPC
+// RDS
 variable "ENV" {}
 variable "PROJECT" {}
 variable "ENGINE" {}
